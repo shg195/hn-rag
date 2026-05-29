@@ -1,0 +1,24 @@
+# 秘密情報（絶対に公開しない）
+.env
+
+# ベクトルDB（重い・記事本文が入る・公開不要）
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# データファイル（PDF等の知識源）
+*.pdf
+
+# OS / エディタ
+.DS_Store
+.vscode/
+
+# 学習過程の検査用スクリプト（ポートフォリオ対象外）
+ask.py
+ingest.py
+check_env.py
+step*.py

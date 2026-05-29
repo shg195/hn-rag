@@ -1,0 +1,9 @@
+streamlit
+sentence-transformers
+chromadb
+anthropic
+python-dotenv
+notion-client
+fugashi
+sentencepiece
+unidic-lite
